@@ -1,3 +1,18 @@
+//Linear Search
+function linearSearch(arr, x) {
+  let i = 0;
+  for (i; i < arr.length; i++) {
+    if (arr[i] === x) {
+      return i;
+    }
+  }
+
+  return -1;
+}
+
+console.log(linearSearch([1, 3, 4, 5, 6, 7], 5));
+
+//Binary Search
 let searchFunction = (arr, x) => {
   let start = 0,
     end = arr.length - 1;
