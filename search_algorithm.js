@@ -10,6 +10,7 @@ function linearSearch(arr, x) {
   return -1;
 }
 
+//Driver code
 console.log(linearSearch([1, 3, 5, 7, 8, 9], 5));
 
 //Binary Search
@@ -38,7 +39,4 @@ let searchFunction = (arr, x) => {
 };
 
 // Driver code
-//let arr = [1, 3, 5, 7, 8, 9];
-//let x = 5;
-
 console.log(searchFunction([1, 3, 5, 7, 8, 9], 9));
