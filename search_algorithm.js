@@ -10,7 +10,7 @@ function linearSearch(arr, x) {
   return -1;
 }
 
-console.log(linearSearch([1, 3, 4, 5, 6, 7], 5));
+console.log(linearSearch([1, 3, 5, 7, 8, 9], 5));
 
 //Binary Search
 let searchFunction = (arr, x) => {
